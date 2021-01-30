@@ -12,7 +12,7 @@ export default {
   },
   data() {
     return {
-      text: "カスタムボタン:",
+      prefix: "カスタムボタン:",
     };
   },
 }
