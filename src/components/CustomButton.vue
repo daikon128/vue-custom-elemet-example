@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button>{{ prefix }} {{ label }}</button>
+    <button>{{ prefix }} {{ text }}</button>
   </div>
 </template>
 
@@ -8,11 +8,11 @@
 export default {
   name: "CustomButton",
   props: {
-    name: String
+    text: String
   },
   data() {
     return {
-      prefix: "カスタムボタン:",
+      prefix: "🆗",
     };
   },
 }
