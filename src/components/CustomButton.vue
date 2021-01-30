@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <button>{{ prefix }} {{ text }}</button>
-  </div>
+  <button>{{ prefix }} {{ text }}</button>
 </template>
 
 <script>
